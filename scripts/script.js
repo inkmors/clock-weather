@@ -34,7 +34,7 @@ function getDate() {
     let strDay = new String(day)
     let strMonth = new String(month)
 
-    if (strDay.length == 1) month = '0' + day
+    if (strDay.length == 1) day = '0' + day
     if (strMonth.length == 1) month = '0' + month
 
     switch (dayWeek) {
